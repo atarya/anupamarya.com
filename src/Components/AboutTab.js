@@ -29,7 +29,7 @@ function AboutTab() {
           <a href="https://www.linkedin.com/in/reachanupam" target="_blank" rel="noopener noreferrer">
             <img src={process.env.PUBLIC_URL + "/linkedin.png"} alt="LinkedIn" />
           </a>
-          <a href="https://discord.com/channels/@anupamarya" target="_blank" rel="noopener noreferrer">
+          <a href="https://discord.gg/WbunGHrg" target="_blank" rel="noopener noreferrer">
             <img src={process.env.PUBLIC_URL + "/discord.png"} alt="Discord" />
           </a>
         </div>
