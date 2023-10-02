@@ -129,3 +129,37 @@ h1 {
   justify-content: center;
   height: 100%;
 }
+
+@media (max-width: 768px) {
+  .about-container {
+    max-width: 90%;
+  }
+  .profile-photo {
+    width: 200px;
+    height: 200px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  .email {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-container {
+    max-width: 100%;
+    padding: 10px;
+  }
+  .profile-photo {
+    width: 150px;
+    height: 150px;
+  }
+  h1 {
+    font-size: 18px;
+  }
+  .email {
+    font-size: 12px;
+  }
+}
+
