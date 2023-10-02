@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/anupamarya.com/static/css/main.d017756c.css",
-    "main.js": "/anupamarya.com/static/js/main.aa31e04e.js",
+    "main.css": "/anupamarya.com/static/css/main.628bb910.css",
+    "main.js": "/anupamarya.com/static/js/main.17c92dba.js",
     "index.html": "/anupamarya.com/index.html",
-    "main.d017756c.css.map": "/anupamarya.com/static/css/main.d017756c.css.map",
-    "main.aa31e04e.js.map": "/anupamarya.com/static/js/main.aa31e04e.js.map"
+    "main.628bb910.css.map": "/anupamarya.com/static/css/main.628bb910.css.map",
+    "main.17c92dba.js.map": "/anupamarya.com/static/js/main.17c92dba.js.map"
   },
   "entrypoints": [
-    "static/css/main.d017756c.css",
-    "static/js/main.aa31e04e.js"
+    "static/css/main.628bb910.css",
+    "static/js/main.17c92dba.js"
   ]
 }
