@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import AboutTab from './Components/AboutTab';
+import NowTab from './Components/NowTab';
+import './Styles/App.css';
+import FlashingText from './Components/FlashingText';
+
 
 function App() {
+  const [activeTab, setActiveTab] = useState('about');
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <FlashingText text="90s Retro Love!" />
+        <div className={`tab ${activeTab === 'now' ? 'active' : ''}`} onClick={() => setActiveTab('now')}>Now</div>
+        <div className={`tab ${activeTab === 'about' ? 'active' : ''}`} onClick={() => setActiveTab('about')}>About</div>
       </header>
+      <div className="content-area">
+        {activeTab === 'about' ? <AboutTab /> : <NowTab />}
+      </div>
     </div>
   );
 }

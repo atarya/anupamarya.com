@@ -1,0 +1,65 @@
+/* General Styles */
+body {
+  background-color: #00ffcc; /* Bright turquoise background */
+  font-family: 'Press Start 2P', cursive; /* Pixelated font from Google Fonts */
+  color: #000000; /* Black text */
+}
+
+/* Main App Container */
+.App {
+  width: 800px;
+  margin: 50px auto;
+  border: 5px solid #000000; /* Thick black border */
+  background-color: #ffffff; /* White background for content */
+  padding: 20px;
+}
+
+/* Header Styles */
+.App-header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffcc00; /* Bright yellow header */
+  padding: 10px 0;
+  text-align: center;
+  border-bottom: 5px solid #000000; /* Thick black border */
+}
+
+/* Tab Styles */
+.tab {
+  padding: 5px 20px;
+  cursor: pointer;
+  color: #000000; /* Black text */
+  font-weight: bold;
+  font-size: 16px;
+  border: 2px outset #000000; /* 3D button effect */
+  background-color: #ffcc00; /* Button color */
+  transition: 0.3s; /* Smooth transition for effects */
+}
+
+.tab:hover {
+  background-color: #ff9900; /* Darker shade on hover */
+}
+
+.tab.active {
+  background-color: #ff9900; /* Darker shade for the active tab */
+  color: #ffffff; /* White text for contrast */
+  border-top: 3px solid #000000; /* Black top border for emphasis */
+  border-bottom: none; /* Remove the bottom border to merge with the content area */
+  box-shadow: 0px -5px 0px #ff9900 inset; /* Inset shadow at the top for depth */
+}
+
+/* Content Area Styles */
+.content-area {
+  padding: 40px 20px;
+  background-color: #ffffff; /* White content area */
+  border: 2px solid #000000; /* Black border */
+  min-height: calc(100vh - 200px);
+}
+
+/* Horizontal Line Styles */
+hr {
+  border: 1px solid #000000; /* Black horizontal line */
+  margin: 20px 0; /* Spacing above and below the line */
+}
+
+/* Add any additional 90s styles or customizations below */
