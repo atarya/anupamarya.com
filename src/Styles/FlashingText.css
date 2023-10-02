@@ -1,4 +1,3 @@
-/* Keyframes for flashing animation */
 @keyframes flash {
     0%, 100% {
       opacity: 1;
@@ -10,9 +9,9 @@
   
   .flashing-text {
     margin-top: auto;
-    font-size: 24px; /* Adjust size as needed */
-    color: #fb16ff; /* Cyberpunk color */
-    animation: flash 1s infinite; /* Apply flashing animation */
-    text-shadow: 0 0 5px #fb16ff, 0 0 10px #fb16ff; /* Glow effect */
+    font-size: 24px; 
+    color: #d416ff;
+    animation: flash 1s infinite; 
+    text-shadow: 0 0 5px #d416ff, 0 0 10px #d416ff;
   }
   
